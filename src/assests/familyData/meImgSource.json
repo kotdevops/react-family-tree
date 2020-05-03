@@ -1,0 +1,113 @@
+[
+    {
+        "id": "mine",
+        "photo": "../../assests/img/mine.jpg",
+        "gender": "male",
+        "parents": [
+          {
+            "id": "father",
+            "type": "blood"
+          },
+          {
+            "id": "mother",
+            "type": "blood"
+          }
+        ],
+        "siblings": [
+          {
+            "id": "sister",
+            "type": "blood"
+          }
+        ],
+        "spouses": [
+          {
+            "id": "wife",
+            "type": "married"
+          }
+        ],
+        "children": []
+    },
+    {
+        "id": "sister",
+        "photo": "../../assests/img/sister.jpg",
+        "gender": "female",
+        "parents": [
+          {
+            "id": "father",
+            "type": "blood"
+          },
+          {
+            "id": "mother",
+            "type": "blood"
+          }
+        ],
+        "siblings": [
+          {
+            "id": "mine",
+            "type": "blood"
+          }
+        ],
+        "spouses": [],
+        "children": []
+    },
+    {
+        "id": "father",
+        "photo": "../../assests/img/father.jpg",
+        "gender": "male",
+        "parents": [],
+        "siblings": [],
+        "spouses": [
+            {
+              "id": "mother",
+              "type": "married"
+            }
+          ],
+        "children": [
+            {
+                "id": "mine",
+                "type": "blood"
+            },
+            {
+                "id": "sister",
+                "type": "blood"
+            }
+        ]
+    },
+    {
+        "id": "mother",
+        "photo": "../../assests/img/mother.jpg",
+        "gender": "female",
+        "parents": [],
+        "siblings": [],
+        "spouses": [
+            {
+              "id": "father",
+              "type": "married"
+            }
+          ],
+        "children": [
+            {
+                "id": "mine",
+                "type": "blood"
+            },
+            {
+                "id": "sister",
+                "type": "blood"
+            }
+        ]
+    },
+    {
+      "id": "wife",
+      "photo": "../../assests/img/wife.jpg",
+      "gender": "female",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "mine",
+          "type": "married"
+        }
+      ],
+      "children": []
+  }
+]

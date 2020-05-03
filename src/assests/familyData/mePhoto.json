@@ -1,0 +1,113 @@
+[
+    {
+        "id": "mine",
+        "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg",
+        "gender": "male",
+        "parents": [
+          {
+            "id": "father",
+            "type": "blood"
+          },
+          {
+            "id": "mother",
+            "type": "blood"
+          }
+        ],
+        "siblings": [
+          {
+            "id": "sister",
+            "type": "blood"
+          }
+        ],
+        "spouses": [
+          {
+            "id": "wife",
+            "type": "married"
+          }
+        ],
+        "children": []
+    },
+    {
+        "id": "sister",
+        "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg",
+        "gender": "female",
+        "parents": [
+          {
+            "id": "father",
+            "type": "blood"
+          },
+          {
+            "id": "mother",
+            "type": "blood"
+          }
+        ],
+        "siblings": [
+          {
+            "id": "mine",
+            "type": "blood"
+          }
+        ],
+        "spouses": [],
+        "children": []
+    },
+    {
+        "id": "father",
+        "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg",
+        "gender": "male",
+        "parents": [],
+        "siblings": [],
+        "spouses": [
+            {
+              "id": "mother",
+              "type": "married"
+            }
+          ],
+        "children": [
+            {
+                "id": "mine",
+                "type": "blood"
+            },
+            {
+                "id": "sister",
+                "type": "blood"
+            }
+        ]
+    },
+    {
+        "id": "mother",
+        "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg",
+        "gender": "female",
+        "parents": [],
+        "siblings": [],
+        "spouses": [
+            {
+              "id": "father",
+              "type": "married"
+            }
+          ],
+        "children": [
+            {
+                "id": "mine",
+                "type": "blood"
+            },
+            {
+                "id": "sister",
+                "type": "blood"
+            }
+        ]
+    },
+    {
+      "id": "wife",
+      "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg",
+      "gender": "female",
+      "parents": [],
+      "siblings": [],
+      "spouses": [
+        {
+          "id": "mine",
+          "type": "married"
+        }
+      ],
+      "children": []
+  }
+]
