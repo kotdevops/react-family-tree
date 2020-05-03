@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      "relatives-tree@1.3.2",
+      "E:\\1_All_Client_Project\\6_France_Frank(greece)-2.29\\third(4.6)\\react-family-tree-example-master"
+    ]
+  ],
+  "_from": "relatives-tree@1.3.2",
+  "_id": "relatives-tree@1.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-2KCHPB7nLZP35NlXbj0BracyiU9fn8Q2hs8KfSad0+zc9AgF4BumG/dJbGYJMS+h7jNhV/nNmmREp0HdxB5CIA==",
+  "_location": "/relatives-tree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "relatives-tree@1.3.2",
+    "name": "relatives-tree",
+    "escapedName": "relatives-tree",
+    "rawSpec": "1.3.2",
+    "saveSpec": null,
+    "fetchSpec": "1.3.2"
+  },
+  "_requiredBy": [
+    "/react-family-tree"
+  ],
+  "_resolved": "https://registry.npmjs.org/relatives-tree/-/relatives-tree-1.3.2.tgz",
+  "_spec": "1.3.2",
+  "_where": "E:\\1_All_Client_Project\\6_France_Frank(greece)-2.29\\third(4.6)\\react-family-tree-example-master",
+  "author": {
+    "name": "Sanich Kotikov",
+    "email": "sancho@cdrpro.ru",
+    "url": "https://sanichkotikov.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/SanichKotikov/relatives-tree/issues"
+  },
+  "dependencies": {},
+  "description": "Calculates families and nodes positions for rendering a family tree",
+  "devDependencies": {
+    "@types/node": "12.6.8",
+    "benchmark": "2.1.4",
+    "typescript": "3.5.3"
+  },
+  "files": [
+    "lib",
+    "src",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/SanichKotikov/relatives-tree",
+  "keywords": [
+    "family-tree",
+    "family",
+    "relatives",
+    "node",
+    "connection"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "relatives-tree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanichKotikov/relatives-tree.git"
+  },
+  "scripts": {
+    "benchmarks": "node ./benchmarks/index.js",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "typings": "index.d.ts",
+  "version": "1.3.2"
+}
