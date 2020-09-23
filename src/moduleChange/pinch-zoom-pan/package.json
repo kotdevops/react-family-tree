@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "pinch-zoom-pan@2.0.0",
+      "E:\\Work\\6_France_Frank(greece)-2.29\\(5.1)react_family_tree\\react-family-tree-code-work"
+    ]
+  ],
+  "_from": "pinch-zoom-pan@2.0.0",
+  "_id": "pinch-zoom-pan@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-M0VieVQIyaaPQL8Sb33A0z1hFcf3WewzTFiRtU77vDTfMCxe6Nj+Idlq1FtSYIhAD7W0wx3Lsj7PBLEUwzMbtQ==",
+  "_location": "/pinch-zoom-pan",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "pinch-zoom-pan@2.0.0",
+    "name": "pinch-zoom-pan",
+    "escapedName": "pinch-zoom-pan",
+    "rawSpec": "2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pinch-zoom-pan/-/pinch-zoom-pan-2.0.0.tgz",
+  "_spec": "2.0.0",
+  "_where": "E:\\Work\\6_France_Frank(greece)-2.29\\(5.1)react_family_tree\\react-family-tree-code-work",
+  "author": {
+    "name": "Sanich Kotikov",
+    "email": "sancho@cdrpro.ru",
+    "url": "https://sanichkotikov.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/SanichKotikov/pinch-zoom-pan/issues"
+  },
+  "dependencies": {},
+  "description": "A react component that lets you add pinch-zoom and pan sub components",
+  "devDependencies": {
+    "@types/react": "16.0.35",
+    "react": "16.2.0",
+    "typescript": "2.6.2"
+  },
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/SanichKotikov/pinch-zoom-pan",
+  "keywords": [
+    "react",
+    "react-component",
+    "component",
+    "pinch",
+    "zoom",
+    "pan",
+    "frontend",
+    "ui"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "pinch-zoom-pan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanichKotikov/pinch-zoom-pan.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "typings": "index.d.ts",
+  "version": "2.0.0"
+}

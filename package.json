@@ -1,21 +1,32 @@
 {
-  "name": "react-family-tree-example",
+  "name": "react-family-tree-reactivesearch",
   "version": "1.3.0",
+  "private": true,
   "dependencies": {
+    "@appbaseio/reactivesearch": "^3.8.3",
+    "antd": "^4.2.0",
+    "body-parser": "^1.19.0",
+    "btoa": "^1.2.1",
     "classnames": "2.2.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.4",
     "pinch-zoom-pan": "2.0.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-family-tree": "1.3.0",
+    "react-scripts-ts": "2.15.1",
     "typescript": "3.5.3"
   },
   "devDependencies": {
+    "@types/jest": "^22.2.3",
     "@types/classnames": "2.2.9",
     "@types/node": "12.6.8",
     "@types/react": "16.8.23",
     "@types/react-dom": "16.8.5",
     "gh-pages": "2.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "typescript": "^2.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,7 +37,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://sanichkotikov.github.io/react-family-tree-example/",
+  "homepage": "./",
   "browserslist": [
     ">0.2%",
     "not dead",

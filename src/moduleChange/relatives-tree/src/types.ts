@@ -19,7 +19,12 @@ export interface IRelation {
 
 export interface IFamilyNode {
   id: string;
-  photo: string;
+  root: string;
+  images: string;
+  fname: string;
+  lname: string;
+  death: string;
+  birth: string;
   gender: Gender;
   parents: IRelation[];
   children: IRelation[];

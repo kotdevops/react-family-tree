@@ -20,9 +20,9 @@
 }
 
 .isRoot {
-  /* border-color: rgba(0, 0, 0, .4); */
-  background: #2ae643;
-  font-weight: bold;
+  border-color: rgba(0, 0, 0, .4);
+  /* background: #2ae643;
+  font-weight: bold; */
 }
 
 .sub {
@@ -46,18 +46,19 @@
 }
 
 .backimg {
-  width: 73%;
-  height: 60%;
+  width: 84%;
+  height: 75%;
   border-radius: 10px 0 0;
   position: absolute;
 }
 
 .nameP {
   position: absolute;
-  top: 69%;
-  left: 15%;
+  top: 83%;
+  left: 10%;
   padding: 0;
   margin: 0;
   font-style: oblique;
   font-family: auto;
+  font-size: 12px;
 }

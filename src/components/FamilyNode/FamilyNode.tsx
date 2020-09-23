@@ -1,6 +1,5 @@
 import React from 'react';
 import classNames from 'classnames';
-// import { IFamilyExtNode } from 'relatives-tree';
 import { IFamilyExtNode } from '../../moduleChange/relatives-tree';
 import styles from './FamilyNode.module.css';
 
@@ -22,9 +21,8 @@ export default React.memo<Props>(
             isRoot && styles.isRoot,            
           )}
         >
-          <div><img src={node.photo} className={classNames(styles.backimg)} /></div>
-          {/* <div><img src={require(node.photo)} className={classNames(styles.backimg)} /></div> */}
-          <div><p className={classNames(styles.nameP)}>{node.id}</p></div>
+          <div><img src={node.images?node.images:"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"} className={classNames(styles.backimg)} /></div>
+          <div><p className={classNames(styles.nameP)}>{(node.fname && node.fname.length)? node.fname + ' ' + node.lname:'Nick Name'}</p></div>
         </div>
         {node.hasSubTree && (
           <div

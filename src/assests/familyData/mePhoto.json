@@ -1,8 +1,10 @@
 [
     {
         "id": "mine",
-        "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg",
+        "images":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
         "gender": "male",
+        "fname": "Maxim",
+        "lname": "Muraki",
         "parents": [
           {
             "id": "father",
@@ -25,12 +27,19 @@
             "type": "married"
           }
         ],
-        "children": []
+        "children": [
+          {
+            "id": "son",
+            "type": "blood"
+          }
+        ]
     },
     {
         "id": "sister",
-        "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg",
+        "images":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg",
         "gender": "female",
+        "fname": "Elena",
+        "lname": "Muraki",
         "parents": [
           {
             "id": "father",
@@ -52,8 +61,10 @@
     },
     {
         "id": "father",
-        "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg",
+        "images":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
         "gender": "male",
+        "fname": "Blezim",
+        "lname": "Muraki",
         "parents": [],
         "siblings": [],
         "spouses": [
@@ -75,8 +86,10 @@
     },
     {
         "id": "mother",
-        "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg",
+        "images":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg",
         "gender": "female",
+        "fname": "Alina",
+        "lname": "Muraki",
         "parents": [],
         "siblings": [],
         "spouses": [
@@ -98,8 +111,10 @@
     },
     {
       "id": "wife",
-      "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg",
+      "images":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg",
       "gender": "female",
+      "fname": "Anna",
+      "lname": "Bracq",
       "parents": [],
       "siblings": [],
       "spouses": [
@@ -108,6 +123,31 @@
           "type": "married"
         }
       ],
+      "children": [
+        {
+          "id": "son",
+          "type": "blood"
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "images":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
+      "gender": "male",
+      "fname": "Tom",
+      "lname": "Muraki",
+      "parents": [
+        {
+          "id": "mine",
+          "type": "blood"
+        },
+        {
+          "id": "wife",
+          "type": "blood"
+        }
+      ],
+      "siblings": [],
+      "spouses": [],
       "children": []
-  }
+    }
 ]

@@ -1,0 +1,83 @@
+.apptree {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  height: 85%;
+  width: 100%;
+  position: absolute;
+}
+
+.header {
+  /* display: flex; */
+  height: 30%;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  background: #174ff4;
+  border-bottom: 1px solid #ddd;
+  z-index: 999;
+  text-align: center;
+}
+
+.title {
+  margin: 55px 0 25px;
+  padding: 0;
+  font-size: 47px;
+  font-weight: 500;
+  color: white;
+}
+
+.wrapper {
+  flex: 1;
+  /* z-index: 5;
+  position: absolute;
+  bottom: 100px;   */
+}
+
+.tree {
+  background: rgb(255, 255, 255);
+  border: 2px solid rgba(203, 252, 255, 0.5);
+  border-radius: 5px;
+  box-shadow: 10px 5px rgba(203, 252, 255, 0.5);
+  /* scale: 0.5; */
+}
+
+.reset {
+  position: absolute;
+  right: 10px;
+  top: 60px;
+  padding: 4px 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+input {
+  height: 40px;
+  width: 320px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.searchbutton {
+  height: 40px;
+  margin: 1px;
+  color: rgb(133, 133, 133);
+}
+
+.searcher {
+  background-color: rgb(203, 252, 255);
+  height: 100px;
+  width: 100%;
+  z-index: 5;
+  top: 0px;
+  border: solid 1px rgb(203, 252, 255);
+}
+
+@media all and (max-width: 767px) {
+  .searcher {
+    height: 155px;
+  }
+}
